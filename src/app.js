@@ -6,6 +6,7 @@ import healthRoutes from "./routes/health.routes.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
 const app = express();
 
+//body parser
 app.use(express.json());
 
 app.use("/api/users", userRoutes);
