@@ -8,6 +8,7 @@ const app = express();
 
 //body parser
 app.use(express.json());
+console.log("New feature added 1!");
 
 app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes);
