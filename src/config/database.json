@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "pg",
+    "database": "mydb",
+    "user": "parth",
+    "password": "parth",
+    "host": "localhost",
+    "port": 5432
+  }
+}
